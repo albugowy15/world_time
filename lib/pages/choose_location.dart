@@ -71,7 +71,7 @@ class _ChooseLocationState extends State<ChooseLocation> {
             child: Card(
               child: ListTile(
                 onTap: () {
-                  print(locations[index].location);
+                  // print(locations[index].location);
                   updateTime(index);
                 },
                 title: Text(locations[index].location),
